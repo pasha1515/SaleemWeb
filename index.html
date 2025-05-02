@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PANJ CONSTRUCTIONS - Professional Interior & Construction Services</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="../css/style.css" rel="stylesheet">
+</head>
+<body class="bg-gray-50">
+    <!-- Navigation -->
+    <nav class="bg-white shadow-lg sticky top-0 z-50">
+        <div class="container mx-auto px-4 py-3 flex justify-between items-center">
+            <a href="index.html" class="logo">
+                <div class="text-2xl font-bold panj-primary flex items-center">
+                    <i class="fas fa-building mr-2"></i>
+                    <span>PANJ CONSTRUCTIONS</span>
+                </div>
+            </a>
+            <div class="hidden md:flex space-x-8">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="about.html" class="nav-link">About</a>
+                <a href="services.html" class="nav-link">Services</a>
+                <a href="projects.html" class="nav-link">Projects</a>
+                <a href="contact.html" class="nav-link">Contact</a>
+                <a href="contact.html" class="consultation-btn">Get Free Consultation</a>
+            </div>
+            <button id="mobile-menu-button" class="md:hidden focus:outline-none">
+                <i class="fas fa-bars text-2xl panj-primary"></i>
+            </button>
+        </div>
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="hidden md:hidden bg-white py-2 px-4 shadow-lg">
+            <a href="index.html" class="block py-3 border-b border-gray-100 hover:bg-gray-50 px-2">Home</a>
+            <a href="about.html" class="block py-3 border-b border-gray-100 hover:bg-gray-50 px-2">About</a>
+            <a href="services.html" class="block py-3 border-b border-gray-100 hover:bg-gray-50 px-2">Services</a>
+            <a href="projects.html" class="block py-3 border-b border-gray-100 hover:bg-gray-50 px-2">Projects</a>
+            <a href="contact.html" class="block py-3 hover:bg-gray-50 px-2">Contact</a>
+        </div>
+    </nav>
+
+    <div class="main-content">
+        <!-- Hero Section -->
+        <section class="hero-section text-white py-32">
+            <div class="container mx-auto px-4 text-center">
+                <h1 class="text-4xl md:text-6xl font-bold mb-4">BUILDING YOUR VISION</h1>
+                <p class="text-xl md:text-2xl mb-8">Premium Construction & Interior Design Solutions</p>
+                <div class="flex flex-col sm:flex-row justify-center gap-4">
+                    <a href="contact.html" class="bg-transparent border-2 border-white hover:bg-white hover:text-blue-900 text-white px-8 py-3 rounded-lg text-lg font-semibold transition-all hover:scale-105 transform duration-300 hover:shadow-[0_0_15px_rgba(59,130,246,0.5)]">
+                        Get Free Consultation
+                    </a>
+                    <a href="services.html" class="bg-transparent border-2 border-white hover:bg-white hover:text-blue-900 text-white px-8 py-3 rounded-lg text-lg font-semibold transition-all hover:scale-105 transform duration-300 hover:shadow-[0_0_15px_rgba(59,130,246,0.5)]">
+                        Our Services
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Preview -->
+        <section class="container mx-auto px-4 py-16">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-bold panj-primary mb-4">Our Services</h2>
+                <p class="text-gray-600 max-w-2xl mx-auto">We offer comprehensive construction and interior design services tailored to your needs</p>
+            </div>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="service-card bg-white p-8 rounded-lg">
+                    <div class="text-4xl mb-4 panj-secondary">
+                        <i class="fas fa-home"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Residential Construction</h3>
+                    <p class="text-gray-600">From dream homes to renovations, we build quality living spaces that stand the test of time.</p>
+                    <a href="residential.html" class="inline-block mt-4 text-panj-secondary font-medium">Learn more →</a>
+                </div>
+                <div class="service-card bg-white p-8 rounded-lg">
+                    <div class="text-4xl mb-4 panj-secondary">
+                        <i class="fas fa-building"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Commercial Projects</h3>
+                    <p class="text-gray-600">Professional spaces designed for productivity, functionality, and aesthetic appeal.</p>
+                    <a href="commercial.html" class="inline-block mt-4 text-panj-secondary font-medium">Learn more →</a>
+                </div>
+                <div class="service-card bg-white p-8 rounded-lg">
+                    <div class="text-4xl mb-4 panj-secondary">
+                        <i class="fas fa-paint-roller"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Interior Design</h3>
+                    <p class="text-gray-600">Transform your space with our innovative and personalized interior design solutions.</p>
+                    <a href="interior.html" class="inline-block mt-4 text-panj-secondary font-medium">Learn more →</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials -->
+        <section class="bg-gray-100 py-16">
+            <div class="container mx-auto px-4">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl font-bold panj-primary mb-4">What Our Clients Say</h2>
+                    <p class="text-gray-600 max-w-2xl mx-auto">Hear from our satisfied customers about their experience with PANJ CONSTRUCTIONS</p>
+                </div>
+                <div class="grid md:grid-cols-3 gap-8">
+                    <div class="testimonial-card">
+                        <div class="testimonial-content">
+                            <p>"PANJ CONSTRUCTIONS delivered exceptional quality and attention to detail. Their team was professional and completed our project on time."</p>
+                            <div class="testimonial-author">
+                                <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-1.2.1&auto=format&fit=crop&w=100&q=80" alt="Shaik Siqque" class="w-12 h-12 rounded-full">
+                                <div>
+                                    <h4 class="font-bold">Shaik Siqque</h4>
+                                    <p class="text-gray-600">Homeowner</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="testimonial-content">
+                            <p>"The commercial project was handled with utmost professionalism. They understood our requirements perfectly."</p>
+                            <div class="testimonial-author">
+                                <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-1.2.1&auto=format&fit=crop&w=100&q=80" alt="Thomas" class="w-12 h-12 rounded-full">
+                                <div>
+                                    <h4 class="font-bold">Thomas</h4>
+                                    <p class="text-gray-600">Business Owner</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="testimonial-content">
+                            <p>"Their interior design team transformed our space beyond our expectations. Highly recommended!"</p>
+                            <div class="testimonial-author">
+                                <img src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?ixlib=rb-1.2.1&auto=format&fit=crop&w=100&q=80" alt="Abdul Kareem" class="w-12 h-12 rounded-full">
+                                <div>
+                                    <h4 class="font-bold">Abdul Kareem</h4>
+                                    <p class="text-gray-600">Property Developer</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- New CTA Section -->
+        <section class="py-20 bg-white">
+            <div class="container mx-auto px-4">
+                <div class="max-w-6xl mx-auto">
+                    <div class="grid md:grid-cols-3 gap-8 items-center">
+                        <!-- Left Column - Main CTA -->
+                        <div class="md:col-span-2 bg-gradient-to-br from-blue-600 to-blue-800 rounded-2xl p-8 text-white">
+                            <h2 class="text-3xl font-bold mb-4">Let's Create Something Extraordinary</h2>
+                            <p class="text-lg mb-6">Your vision deserves the best. We're here to make it happen with our expert team and premium services.</p>
+                            <div class="flex flex-wrap gap-4">
+                                <a href="contact.html" class="bg-white text-blue-600 px-8 py-3 rounded-lg font-semibold hover:bg-blue-50 transition-all duration-300 transform hover:scale-105 inline-flex items-center">
+                                    <i class="fas fa-calendar-check mr-2"></i>
+                                    Schedule a Meeting
+                                </a>
+                                <a href="tel:+917386487631" class="border-2 border-white text-white px-8 py-3 rounded-lg font-semibold hover:bg-white hover:text-blue-600 transition-all duration-300 inline-flex items-center">
+                                    <i class="fas fa-phone-alt mr-2"></i>
+                                    Call Now
+                                </a>
+                            </div>
+                        </div>
+                        
+                        <!-- Right Column - Features -->
+                        <div class="bg-gray-50 rounded-2xl p-8">
+                            <h3 class="text-xl font-bold text-gray-800 mb-6">Why Choose Us?</h3>
+                            <div class="space-y-4">
+                                <div class="flex items-start">
+                                    <div class="bg-blue-100 p-2 rounded-lg mr-4">
+                                        <i class="fas fa-check-circle text-blue-600"></i>
+                                    </div>
+                                    <div>
+                                        <h4 class="font-semibold text-gray-800">Expert Team</h4>
+                                        <p class="text-gray-600 text-sm">Professional and experienced craftsmen</p>
+                                    </div>
+                                </div>
+                                <div class="flex items-start">
+                                    <div class="bg-blue-100 p-2 rounded-lg mr-4">
+                                        <i class="fas fa-check-circle text-blue-600"></i>
+                                    </div>
+                                    <div>
+                                        <h4 class="font-semibold text-gray-800">Quality Guaranteed</h4>
+                                        <p class="text-gray-600 text-sm">Premium materials and workmanship</p>
+                                    </div>
+                                </div>
+                                <div class="flex items-start">
+                                    <div class="bg-blue-100 p-2 rounded-lg mr-4">
+                                        <i class="fas fa-check-circle text-blue-600"></i>
+                                    </div>
+                                    <div>
+                                        <h4 class="font-semibold text-gray-800">Free Consultation</h4>
+                                        <p class="text-gray-600 text-sm">No-obligation project assessment</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-12">
+        <div class="container mx-auto px-4">
+            <div class="grid md:grid-cols-4 gap-8">
+                <div>
+                    <h3 class="text-xl font-bold mb-4">PANJ CONSTRUCTIONS</h3>
+                    <p class="text-gray-400">Quality construction and interior design services for residential and commercial clients.</p>
+                </div>
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Quick Links</h3>
+                    <ul class="space-y-2">
+                        <li><a href="index.html" class="text-gray-400 hover:text-panj-secondary transition-all">Home</a></li>
+                        <li><a href="about.html" class="text-gray-400 hover:text-panj-secondary transition-all">About</a></li>
+                        <li><a href="services.html" class="text-gray-400 hover:text-panj-secondary transition-all">Services</a></li>
+                        <li><a href="projects.html" class="text-gray-400 hover:text-panj-secondary transition-all">Projects</a></li>
+                        <li><a href="contact.html" class="text-gray-400 hover:text-panj-secondary transition-all">Contact</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Services</h3>
+                    <ul class="space-y-2">
+                        <li><a href="residential.html" class="text-gray-400 hover:text-panj-secondary transition-all">Residential Construction</a></li>
+                        <li><a href="commercial.html" class="text-gray-400 hover:text-panj-secondary transition-all">Commercial Projects</a></li>
+                        <li><a href="interior.html" class="text-gray-400 hover:text-panj-secondary transition-all">Interior Design</a></li>
+                        <li><a href="renovation.html" class="text-gray-400 hover:text-panj-secondary transition-all">Renovation</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Contact</h3>
+                    <ul class="space-y-2">
+                        <li class="flex items-center">
+                            <i class="fas fa-phone-alt mr-2 text-panj-secondary"></i>
+                            <span class="text-gray-400">+917386487631</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-envelope mr-2 text-panj-secondary"></i>
+                            <span class="text-gray-400">panjconstructions@gmail.com</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-map-marker-alt mr-2 text-panj-secondary"></i>
+                            <span class="text-gray-400">Borabanda, Beside Super Footwear</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="border-t border-gray-700 mt-8 pt-8 text-center">
+                <p class="text-gray-400">&copy; 2017 PANJ CONSTRUCTIONS. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating Action Buttons -->
+    <a href="tel:+917386487631" id="call-button" class="floating-button call-button">
+        <i class="fas fa-phone-alt"></i>
+    </a>
+    <a href="https://wa.me/+917386487631" id="whatsapp-button" class="floating-button whatsapp-button">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <script src="../js/script.js"></script>
+</body>
+</html>

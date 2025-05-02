@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - PANJ CONSTRUCTIONS</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="../css/style.css" rel="stylesheet">
+</head>
+<body class="bg-gray-50">
+    <!-- Navigation -->
+    <nav class="bg-white shadow-lg sticky top-0 z-50">
+        <div class="container mx-auto px-4 py-3 flex justify-between items-center">
+            <a href="index.html" class="logo">
+                <div class="text-2xl font-bold panj-primary flex items-center">
+                    <i class="fas fa-building mr-2"></i>
+                    <span>PANJ CONSTRUCTIONS</span>
+                </div>
+            </a>
+            <div class="hidden md:flex space-x-8">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="about.html" class="nav-link">About</a>
+                <a href="services.html" class="nav-link">Services</a>
+                <a href="projects.html" class="nav-link">Projects</a>
+                <a href="contact.html" class="nav-link">Contact</a>
+                <a href="contact.html" class="consultation-btn">Get Free Consultation</a>
+            </div>
+            <button id="mobile-menu-button" class="md:hidden focus:outline-none">
+                <i class="fas fa-bars text-2xl panj-primary"></i>
+            </button>
+        </div>
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="hidden md:hidden bg-white py-2 px-4 shadow-lg">
+            <a href="index.html" class="block py-3 border-b border-gray-100 hover:bg-gray-50 px-2">Home</a>
+            <a href="about.html" class="block py-3 border-b border-gray-100 hover:bg-gray-50 px-2">About</a>
+            <a href="services.html" class="block py-3 border-b border-gray-100 hover:bg-gray-50 px-2">Services</a>
+            <a href="projects.html" class="block py-3 border-b border-gray-100 hover:bg-gray-50 px-2">Projects</a>
+            <a href="contact.html" class="block py-3 hover:bg-gray-50 px-2">Contact</a>
+        </div>
+    </nav>
+
+    <div class="main-content">
+        <!-- Hero Section -->
+        <section class="hero-section relative overflow-hidden bg-gradient-to-br from-blue-900 to-blue-800">
+            <div class="absolute inset-0">
+                <div class="absolute inset-0 bg-gradient-to-r from-blue-900 to-blue-800 mix-blend-multiply"></div>
+                <div class="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1600607687920-4e2a09cf159d')] bg-cover bg-center mix-blend-overlay opacity-20"></div>
+            </div>
+            <div class="relative container mx-auto px-4 py-32">
+                <div class="max-w-4xl mx-auto text-center fade-in">
+                    <h1 class="text-5xl md:text-6xl font-bold text-white mb-6 leading-tight">
+                        Contact Us
+                    </h1>
+                    <p class="text-xl md:text-2xl text-blue-100 mb-8">
+                        Get in touch with our team for your construction needs
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Form Section -->
+        <section class="py-20 bg-white">
+            <div class="container mx-auto px-4">
+                <div class="grid md:grid-cols-2 gap-12">
+                    <!-- Contact Form -->
+                    <div class="fade-in">
+                        <h2 class="text-3xl font-bold text-gray-900 mb-6">Send Us a Message</h2>
+                        <form class="space-y-6">
+                            <div class="form-group">
+                                <label for="name" class="block text-gray-700 font-medium mb-2">Your Name</label>
+                                <input type="text" id="name" name="name" class="form-input" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email" class="block text-gray-700 font-medium mb-2">Email Address</label>
+                                <input type="email" id="email" name="email" class="form-input" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="phone" class="block text-gray-700 font-medium mb-2">Phone Number</label>
+                                <input type="tel" id="phone" name="phone" class="form-input" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="service" class="block text-gray-700 font-medium mb-2">Service Interested In</label>
+                                <select id="service" name="service" class="form-input" required>
+                                    <option value="">Select a service</option>
+                                    <option value="residential">Residential Construction</option>
+                                    <option value="commercial">Commercial Projects</option>
+                                    <option value="interior">Interior Design</option>
+                                    <option value="renovation">Renovation</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="message" class="block text-gray-700 font-medium mb-2">Your Message</label>
+                                <textarea id="message" name="message" rows="4" class="form-input" required></textarea>
+                            </div>
+                            <button type="submit" class="btn-hover bg-blue-600 text-white px-8 py-4 rounded-lg font-bold text-lg hover:bg-blue-700 transition-all duration-300 transform hover:scale-105 w-full">
+                                <i class="fas fa-paper-plane mr-2"></i>
+                                Send Message
+                            </button>
+                        </form>
+                    </div>
+
+                    <!-- Contact Information -->
+                    <div class="fade-in">
+                        <div class="bg-gray-50 rounded-2xl p-8 mb-8">
+                            <h3 class="text-2xl font-bold text-gray-900 mb-6">Contact Information</h3>
+                            <div class="space-y-6">
+                                <div class="flex items-start">
+                                    <div class="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center mr-4">
+                                        <i class="fas fa-phone-alt text-blue-600"></i>
+                                    </div>
+                                    <div>
+                                        <h4 class="text-lg font-semibold text-gray-900">Phone</h4>
+                                        <p class="text-gray-600">+917386487631</p>
+                                    </div>
+                                </div>
+                                <div class="flex items-start">
+                                    <div class="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center mr-4">
+                                        <i class="fas fa-envelope text-blue-600"></i>
+                                    </div>
+                                    <div>
+                                        <h4 class="text-lg font-semibold text-gray-900">Email</h4>
+                                        <p class="text-gray-600">panjconstructions@gmail.com</p>
+                                    </div>
+                                </div>
+                                <div class="flex items-start">
+                                    <div class="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center mr-4">
+                                        <i class="fas fa-map-marker-alt text-blue-600"></i>
+                                    </div>
+                                    <div>
+                                        <h4 class="text-lg font-semibold text-gray-900">Address</h4>
+                                        <p class="text-gray-600">Borabanda, Beside Super Footwear</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Business Hours -->
+                        <div class="bg-gray-50 rounded-2xl p-8">
+                            <h3 class="text-2xl font-bold text-gray-900 mb-6">Business Hours</h3>
+                            <div class="space-y-4">
+                                <div class="flex justify-between">
+                                    <span class="text-gray-600">Monday - Saturday</span>
+                                    <span class="font-semibold text-gray-900">9:00 AM - 6:00 PM</span>
+                                </div>
+                                <div class="flex justify-between">
+                                    <span class="text-gray-600">Sunday</span>
+                                    <span class="font-semibold text-gray-900">Closed</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Map Section -->
+        <section class="py-20 bg-gray-50">
+            <div class="container mx-auto px-4">
+                <div class="text-center mb-12 fade-in">
+                    <h2 class="text-3xl font-bold text-gray-900 mb-4">Find Us</h2>
+                    <p class="text-xl text-gray-600">Visit our office for a face-to-face consultation</p>
+                </div>
+                <div class="rounded-2xl overflow-hidden shadow-xl fade-in">
+                    <iframe 
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30452.123456789!2d78.4136633!3d17.4533563!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb91e0a490069d%3A0x77231819d6aeaa37!2sSUPER%20FOOT%20WEAR!5e0!3m2!1sen!2sin!4v1234567890!5m2!1sen!2sin"
+                        width="100%" 
+                        height="450" 
+                        style="border:0;" 
+                        allowfullscreen="" 
+                        loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section class="py-20 bg-gradient-to-br from-blue-600 to-blue-800">
+            <div class="container mx-auto px-4">
+                <div class="max-w-6xl mx-auto">
+                    <div class="grid md:grid-cols-3 gap-8 items-center">
+                        <div class="md:col-span-2 text-white fade-in">
+                            <h2 class="text-4xl font-bold mb-4">Ready to Start Your Project?</h2>
+                            <p class="text-xl mb-8">Let's create something amazing together. Contact us for a free consultation.</p>
+                            <div class="flex flex-wrap gap-4">
+                                <a href="tel:+917386487631" class="btn-hover bg-white text-blue-600 px-8 py-4 rounded-lg font-bold text-lg hover:bg-blue-50 transition-all duration-300 transform hover:scale-105 inline-flex items-center">
+                                    <i class="fas fa-phone-alt mr-2"></i>
+                                    Call Now
+                                </a>
+                                <a href="https://wa.me/+917386487631" class="btn-hover border-2 border-white text-white px-8 py-4 rounded-lg font-bold text-lg hover:bg-white hover:text-blue-600 transition-all duration-300 inline-flex items-center">
+                                    <i class="fab fa-whatsapp mr-2"></i>
+                                    WhatsApp
+                                </a>
+                            </div>
+                        </div>
+                        <div class="glass-effect rounded-2xl p-8 fade-in">
+                            <h3 class="text-2xl font-bold text-white mb-6">Quick Contact</h3>
+                            <div class="space-y-4">
+                                <div class="flex items-center text-white">
+                                    <i class="fas fa-phone-alt w-8 text-blue-200"></i>
+                                    <span>+917386487631</span>
+                                </div>
+                                <div class="flex items-center text-white">
+                                    <i class="fas fa-envelope w-8 text-blue-200"></i>
+                                    <span>panjconstructions@gmail.com</span>
+                                </div>
+                                <div class="flex items-center text-white">
+                                    <i class="fas fa-map-marker-alt w-8 text-blue-200"></i>
+                                    <span>Borabanda, Beside Super Footwear</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-12">
+        <div class="container mx-auto px-4">
+            <div class="grid md:grid-cols-4 gap-8">
+                <div>
+                    <h3 class="text-xl font-bold mb-4">PANJ CONSTRUCTIONS</h3>
+                    <p class="text-gray-400">Quality construction and interior design services for residential and commercial clients.</p>
+                </div>
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Quick Links</h3>
+                    <ul class="space-y-2">
+                        <li><a href="index.html" class="text-gray-400 hover:text-panj-secondary transition-all">Home</a></li>
+                        <li><a href="about.html" class="text-gray-400 hover:text-panj-secondary transition-all">About</a></li>
+                        <li><a href="services.html" class="text-gray-400 hover:text-panj-secondary transition-all">Services</a></li>
+                        <li><a href="projects.html" class="text-gray-400 hover:text-panj-secondary transition-all">Projects</a></li>
+                        <li><a href="contact.html" class="text-gray-400 hover:text-panj-secondary transition-all">Contact</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Services</h3>
+                    <ul class="space-y-2">
+                        <li><a href="residential.html" class="text-gray-400 hover:text-panj-secondary transition-all">Residential Construction</a></li>
+                        <li><a href="commercial.html" class="text-gray-400 hover:text-panj-secondary transition-all">Commercial Projects</a></li>
+                        <li><a href="interior.html" class="text-gray-400 hover:text-panj-secondary transition-all">Interior Design</a></li>
+                        <li><a href="renovation.html" class="text-gray-400 hover:text-panj-secondary transition-all">Renovation</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Contact</h3>
+                    <ul class="space-y-2">
+                        <li class="flex items-center">
+                            <i class="fas fa-phone-alt mr-2 text-panj-secondary"></i>
+                            <span class="text-gray-400">+917386487631</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-envelope mr-2 text-panj-secondary"></i>
+                            <span class="text-gray-400">panjconstructions@gmail.com</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-map-marker-alt mr-2 text-panj-secondary"></i>
+                            <span class="text-gray-400">Borabanda, Beside Super Footwear</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="border-t border-gray-700 mt-8 pt-8 text-center">
+                <p class="text-gray-400">&copy; 2017 PANJ CONSTRUCTIONS. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating Action Buttons -->
+    <div class="fixed bottom-8 right-8 flex flex-col gap-4 z-50">
+        <a href="tel:+917386487631" id="call-button" class="floating-button call-button">
+            <i class="fas fa-phone-alt"></i>
+        </a>
+        <a href="https://wa.me/+917386487631" id="whatsapp-button" class="floating-button whatsapp-button">
+            <i class="fab fa-whatsapp"></i>
+        </a>
+    </div>
+
+    <script src="../js/script.js"></script>
+</body>
+</html> 
